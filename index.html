@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lila’s Flowers — Artisan fleuriste à Gardanne · Bouquets, mariage, deuil, livraison</title>
+<meta name="description" content="Lila’s Flowers, artisan fleuriste au 55 boulevard Carnot à Gardanne : bouquets de saison, roses éternelles sous cloche, plantes, mariage, deuil. Retrait en boutique ou livraison. Réservez en ligne ou au 04 42 58 40 56.">
+<meta name="theme-color" content="#150C16">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Lila’s Flowers — Artisan fleuriste à Gardanne">
+<meta property="og:description" content="Bouquets composés à la main, roses éternelles, plantes, mariage, deuil. Retrait en boutique ou livraison.">
+<meta property="og:image" content="img/pivoine.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preload" href="fonts/fraunces-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/figtree-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+<script>
+  document.documentElement.classList.add('js');
+  /* filet de sécurité : si les scripts n’aboutissent pas, on affiche tout */
+  (function arm(ms){ setTimeout(function(){
+    if(window.__lilaReady) return;
+    /* onglet en arrière-plan : les animations sont suspendues par le navigateur, on ne force rien */
+    if(document.visibilityState !== 'visible'){ arm(4000); return; }
+    document.documentElement.classList.add('no-anim');
+  }, ms); })(12000);
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Florist",
+  "name": "Lila’s Flowers",
+  "description": "Artisan fleuriste à Gardanne : bouquets, compositions, roses éternelles, plantes, mariage, deuil. Retrait en boutique et livraison.",
+  "url": "https://www.instagram.com/lilas_flowers/",
+  "image": "img/pivoine.jpg",
+  "telephone": "+33442584056",
+  "email": "lilasflowers@live.fr",
+  "priceRange": "€€",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "55 boulevard Carnot",
+    "postalCode": "13120",
+    "addressLocality": "Gardanne",
+    "addressRegion": "Provence-Alpes-Côte d’Azur",
+    "addressCountry": "FR"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 43.454894, "longitude": 5.4655624 },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "08:30", "closes": "19:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday"], "opens": "08:30", "closes": "20:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "08:30", "closes": "13:30" }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/lilas_flowers/",
+    "https://www.facebook.com/p/Lilas-Flowers-100063624909920/"
+  ]
+}
+</script>
+</head>
+
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<!-- ============ SYMBOLES SVG (fil rouge : la feuille / le pétale) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="mark" viewBox="0 0 120 110">
+      <path d="M18 98C6 52 40 12 100 4 104 58 70 98 18 98Z" fill="#E8318A"/>
+      <path d="M18 98C44 66 70 36 100 4" fill="none" stroke="#150C16" stroke-opacity=".28" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M72 104C68 80 84 58 114 54 116 80 100 104 72 104Z" fill="#7DB544"/>
+      <path d="M72 104C86 88 100 70 114 54" fill="none" stroke="#150C16" stroke-opacity=".25" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="petal" viewBox="0 0 24 42">
+      <path d="M12 0C23 11 23 30 12 42 1 30 1 11 12 0Z"/>
+    </symbol>
+    <symbol id="arrow" viewBox="0 0 24 24">
+      <path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="star" viewBox="0 0 24 24">
+      <path d="m12 2.6 2.8 6.1 6.6.7-4.9 4.5 1.4 6.5L12 17.1 6.1 20.4l1.4-6.5-4.9-4.5 6.6-.7z" fill="currentColor"/>
+    </symbol>
+    <symbol id="phone" viewBox="0 0 24 24">
+      <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="insta" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/>
+    </symbol>
+    <symbol id="fb" viewBox="0 0 24 24">
+      <path d="M14 8.5V7c0-.8.4-1.2 1.3-1.2H17V3h-2.6C11.6 3 10.5 4.7 10.5 6.8v1.7H8V12h2.5v9H14v-9h2.6l.4-3.5z" fill="currentColor"/>
+    </symbol>
+    <symbol id="pin" viewBox="0 0 24 24">
+      <path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="10" r="2.6" fill="currentColor"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ============ LOADER ============ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <svg class="loader__mark" viewBox="0 0 120 110"><use href="#mark"/></svg>
+    <p class="loader__name">lila’s flowers</p>
+    <p class="loader__sub">artisan fleuriste · Gardanne</p>
+    <div class="loader__bar"><i></i></div>
+    <p class="loader__count"><span id="loaderCount">0</span><small>%</small></p>
+  </div>
+  <div class="loader__curtain"></div>
+</div>
+
+<div class="progress" id="progress" aria-hidden="true"><i></i></div>
+<div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__ring"><b></b></span></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top" aria-label="Lila’s Flowers — retour en haut">
+    <svg viewBox="0 0 120 110" aria-hidden="true"><use href="#mark"/></svg>
+    <span>lila’s <em>flowers</em></span>
+  </a>
+  <nav class="nav__links" aria-label="Navigation principale">
+    <a class="link-u" href="#maison">La maison</a>
+    <a class="link-u" href="#creations">Créations</a>
+    <a class="link-u" href="#occasions">Occasions</a>
+    <a class="link-u" href="#avis">Avis</a>
+    <a class="link-u" href="#infos">Infos</a>
+  </nav>
+  <a class="btn btn--pink btn--sm nav__cta magnetic" href="#reserver"><span class="btn__fill"></span><span class="btn__label">Réserver</span></a>
+  <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"><i></i><i></i></button>
+</header>
+
+<div class="menu" id="menu" hidden>
+  <nav aria-label="Menu mobile">
+    <a href="#maison"><span>La maison</span></a>
+    <a href="#creations"><span>Créations</span></a>
+    <a href="#occasions"><span>Occasions</span></a>
+    <a href="#galerie"><span>Galerie</span></a>
+    <a href="#avis"><span>Avis</span></a>
+    <a href="#reserver"><span>Réserver</span></a>
+    <a href="#infos"><span>Infos</span></a>
+  </nav>
+  <div class="menu__foot">
+    <a href="tel:+33442584056">04 42 58 40 56</a>
+    <span>55 boulevard Carnot · Gardanne</span>
+  </div>
+</div>
+
+<!-- bouton flottant mobile -->
+<div class="fab" id="fab">
+  <a class="fab__call" href="tel:+33442584056"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#phone"/></svg>Appeler</a>
+  <a class="fab__book" href="#reserver">Réserver</a>
+</div>
+
+<main id="contenu">
+<!-- ============ HERO ============ -->
+<section class="hero" id="top" aria-label="Lila’s Flowers, artisan fleuriste à Gardanne">
+  <div class="hero__media" data-hero-media>
+    <!-- la source vidéo (1080p ou 720p selon l’écran) est choisie par js/app.js -->
+    <video class="hero__video" id="heroVideo" autoplay muted loop playsinline preload="auto" poster="img/hero-poster.jpg" aria-hidden="true" tabindex="-1"></video>
+    <div class="hero__shade"></div>
+  </div>
+
+  <div class="hero__petals" id="petals" aria-hidden="true"></div>
+
+  <figure class="hero__leaf" data-hero-leaf>
+    <div class="hero__leaf-img"><img src="img/pivoine.jpg" width="1200" height="1200" alt="Pivoine rose vif devant l’enseigne de la boutique Lila’s Flowers" fetchpriority="high"></div>
+  </figure>
+
+  <a class="hero__badge" href="#avis" aria-label="Note Google 4,1 sur 5, 221 avis" data-hero-badge>
+    <svg class="hero__badge-ring" viewBox="0 0 200 200" aria-hidden="true">
+      <defs><path id="circ" d="M100,100 m-82,0 a82,82 0 1,1 164,0 a82,82 0 1,1 -164,0"/></defs>
+      <text><textPath href="#circ" startOffset="0">avis google · 221 avis · avis google · 221 avis ·</textPath></text>
+    </svg>
+    <span class="hero__badge-core"><b>4,1</b><small>/5</small></span>
+  </a>
+
+  <div class="hero__content container">
+    <p class="kicker" data-hero-in>Artisan fleuriste · Gardanne</p>
+    <h1 class="hero__title" aria-label="Lila’s Flowers">
+      <span class="line" aria-hidden="true"><span class="split">Lila’s</span></span>
+      <span class="line line--it" aria-hidden="true"><span class="split">Flowers</span></span>
+    </h1>
+    <div class="hero__row">
+      <p class="hero__lede" data-hero-in>Des bouquets composés à la main, au jour le jour, selon la saison et selon vous. Retrait en boutique ou livraison&nbsp;: <em>flowers forever.</em></p>
+      <div class="hero__cta" data-hero-in>
+        <a class="btn btn--pink magnetic" href="#reserver"><span class="btn__fill"></span><span class="btn__label">Réserver mon bouquet <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#arrow"/></svg></span></a>
+        <a class="btn btn--ghost magnetic" href="tel:+33442584056"><span class="btn__fill"></span><span class="btn__label"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#phone"/></svg>04 42 58 40 56</span></a>
+      </div>
+    </div>
+    <p class="hero__status" id="openStatus" data-hero-in><i></i><span>Horaires en cours de chargement…</span></p>
+  </div>
+
+  <div class="hero__scroll" aria-hidden="true"><span>défiler</span><i></i></div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<section class="marquee" aria-hidden="true">
+  <div class="marquee__row" data-dir="-1">
+    <div class="marquee__track">
+      <span>Bouquets du jour</span><svg viewBox="0 0 24 42"><use href="#petal"/></svg>
+      <span>Roses éternelles</span><svg viewBox="0 0 24 42"><use href="#petal"/></svg>
+      <span>Mariage</span><svg viewBox="0 0 24 42"><use href="#petal"/></svg>
+      <span>Pivoines</span><svg viewBox="0 0 24 42"><use href="#petal"/></svg>
+      <span>Plantes &amp; orchidées</span><svg viewBox="0 0 24 42"><use href="#petal"/></svg>
+      <span>Naissance</span><svg viewBox="0 0 24 42"><use href="#petal"/></svg>
+    </div>
+  </div>
+  <div class="marquee__row marquee__row--outline" data-dir="1">
+    <div class="marquee__track">
+      <span>Livraison</span><svg viewBox="0 0 24 42"><use href="#petal"/></svg>
+      <span>Retrait en boutique</span><svg viewBox="0 0 24 42"><use href="#petal"/></svg>
+      <span>Mimosa</span><svg viewBox="0 0 24 42"><use href="#petal"/></svg>
+      <span>Fleurs séchées</span><svg viewBox="0 0 24 42"><use href="#petal"/></svg>
+      <span>Deuil</span><svg viewBox="0 0 24 42"><use href="#petal"/></svg>
+      <span>Flowers forever</span><svg viewBox="0 0 24 42"><use href="#petal"/></svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LA MAISON — storytelling épinglé ============ -->
+<section class="story scallop-top" id="maison" aria-labelledby="storyTitle">
+  <div class="story__pin">
+    <p class="story__bg" aria-hidden="true">atelier</p>
+
+    <div class="story__head container">
+      <p class="kicker">La maison</p>
+      <h2 class="h2" id="storyTitle">Du marché<br>à votre <em>main</em></h2>
+    </div>
+
+    <div class="story__stage container">
+      <div class="story__media">
+        <div class="story__leaf">
+          <img class="story__img is-on" src="img/mimosa-panier.jpg" width="900" height="1200" alt="Mimosa en pot de corde, lumineux au cœur de l’hiver">
+          <img class="story__img" src="img/bouquet-gerbera.jpg" width="1147" height="1200" alt="Bouquet coloré de gerberas et d’eucalyptus" loading="lazy">
+          <img class="story__img" src="img/roses-eternelles.jpg" width="1149" height="1200" alt="Deux roses éternelles sous cloche de verre" loading="lazy">
+          <img class="story__img" src="img/bouquet-rose-ruban.jpg" width="960" height="1200" alt="Bouquet rose et blanc enveloppé de papier rose, ruban noir" loading="lazy">
+        </div>
+        <div class="story__stem" aria-hidden="true"><i></i></div>
+      </div>
+
+      <div class="story__steps">
+        <article class="step is-on" data-step="1">
+          <p class="step__n">01<small>/04</small></p>
+          <h3 class="step__t">Choisir</h3>
+          <p class="step__p">Chaque jour, on retient ce qui est beau <em>ce jour-là</em> : mimosa au cœur de l’hiver, jonquilles au réveil du printemps, pivoines en mai, roses et hortensias toute l’année. La saison décide, pas un catalogue.</p>
+        </article>
+        <article class="step" data-step="2">
+          <p class="step__n">02<small>/04</small></p>
+          <h3 class="step__t">Composer</h3>
+          <p class="step__p">Pas deux bouquets identiques. Vous donnez un budget, une occasion, une couleur&nbsp;; on conseille et on compose à la main. Gerberas, lisianthus, eucalyptus&nbsp;: la bonne fleur au bon endroit.</p>
+        </article>
+        <article class="step" data-step="3">
+          <p class="step__n">03<small>/04</small></p>
+          <h3 class="step__t">Faire durer</h3>
+          <p class="step__p">Une rose éternelle sous cloche de verre, une composition de fleurs séchées dans sa mousse&nbsp;: pour celles et ceux qui veulent garder le geste bien après la fête.</p>
+        </article>
+        <article class="step" data-step="4">
+          <p class="step__n">04<small>/04</small></p>
+          <h3 class="step__t">Offrir</h3>
+          <p class="step__p">Papier, ruban, petite carte&nbsp;: tout est prêt. Vous passez au 55 boulevard Carnot, ou on livre chez celle ou celui qui le mérite. L’émotion, elle, se charge du reste.</p>
+        </article>
+      </div>
+    </div>
+
+    <ol class="story__dots" aria-hidden="true"><li class="is-on"></li><li></li><li></li><li></li></ol>
+  </div>
+</section>
+
+<!-- ============ CHIFFRES ============ -->
+<section class="stats scallop-top" id="chiffres" aria-labelledby="statsTitle">
+  <div class="container">
+    <p class="kicker kicker--dark">Ce que disent les chiffres</p>
+    <h2 class="h2 h2--dark" id="statsTitle">On préfère que <em>ça se voie</em></h2>
+    <ul class="stats__grid">
+      <li class="stat">
+        <p class="stat__num"><span data-count="4.1" data-dec="1">0</span><small>/5</small></p>
+        <p class="stat__lbl">note moyenne sur Google</p>
+        <i class="stat__bar"></i>
+      </li>
+      <li class="stat">
+        <p class="stat__num"><span data-count="221">0</span></p>
+        <p class="stat__lbl">avis publiés sur Google</p>
+        <i class="stat__bar"></i>
+      </li>
+      <li class="stat">
+        <p class="stat__num"><span data-count="96">0</span><small>%</small></p>
+        <p class="stat__lbl">recommandent la boutique sur Facebook</p>
+        <i class="stat__bar"></i>
+      </li>
+      <li class="stat">
+        <p class="stat__num"><span data-count="2280" data-sep="1">0</span></p>
+        <p class="stat__lbl">abonnés sur Instagram</p>
+        <i class="stat__bar"></i>
+      </li>
+    </ul>
+    <p class="stats__note">Chiffres relevés en novembre 2026 sur Google Maps, Facebook et Instagram.</p>
+  </div>
+</section>
+
+<!-- ============ CRÉATIONS — défilement horizontal piloté par le scroll ============ -->
+<section class="hs" id="creations" aria-labelledby="hsTitle">
+  <div class="hs__pin">
+    <div class="hs__head container">
+      <div>
+        <p class="kicker">Nos créations</p>
+        <h2 class="h2" id="hsTitle">Ce qu’on <em>compose</em></h2>
+      </div>
+      <p class="hs__hint" aria-hidden="true">Faites défiler <svg viewBox="0 0 24 24"><use href="#arrow"/></svg></p>
+    </div>
+
+    <div class="hs__track" id="hsTrack">
+      <article class="card tilt" data-tilt>
+        <div class="card__img leaf"><img src="img/bouquet-gerbera.jpg" width="1147" height="1200" alt="Bouquet de saison : gerberas, eucalyptus et fleurs des champs" loading="lazy"></div>
+        <div class="card__body">
+          <p class="card__tag">Au quotidien</p>
+          <h3>Bouquets de saison</h3>
+          <p>Composés le jour même avec ce qui est le plus beau en boutique.</p>
+          <p class="card__price"><small>dès</small> 26,90&nbsp;€</p>
+        </div>
+        <span class="glare"></span>
+      </article>
+
+      <article class="card tilt" data-tilt>
+        <div class="card__img leaf"><img src="img/roses-rouges.jpg" width="1182" height="1200" alt="Brassée de roses rouges" loading="lazy"></div>
+        <div class="card__body">
+          <p class="card__tag">Les classiques</p>
+          <h3>Bouquets de roses</h3>
+          <p>Rouges, pêche, crème : du bouquet simple à la grande brassée.</p>
+          <p class="card__price"><small>dès</small> 35,90&nbsp;€</p>
+        </div>
+        <span class="glare"></span>
+      </article>
+
+      <article class="card tilt" data-tilt>
+        <div class="card__img leaf"><img src="img/panier-printemps.jpg" width="1194" height="1194" alt="Panier de printemps : roses, jonquilles et hortensias" loading="lazy"></div>
+        <div class="card__body">
+          <p class="card__tag">À poser</p>
+          <h3>Compositions &amp; paniers</h3>
+          <p>Un panier ou une coupe prêts à poser, du petit format au grand.</p>
+          <p class="card__price"><small>dès</small> 36,90&nbsp;€</p>
+        </div>
+        <span class="glare"></span>
+      </article>
+
+      <article class="card tilt" data-tilt>
+        <div class="card__img leaf"><img src="img/roses-eternelles.jpg" width="1149" height="1200" alt="Roses éternelles sous cloche en verre" loading="lazy"></div>
+        <div class="card__body">
+          <p class="card__tag">Qui dure</p>
+          <h3>Sous cloche</h3>
+          <p>Roses éternelles et fleurs séchées dans leur mousse, sous verre.</p>
+          <p class="card__price card__price--ask">Prix en boutique</p>
+        </div>
+        <span class="glare"></span>
+      </article>
+
+      <article class="card tilt" data-tilt>
+        <div class="card__img leaf"><img src="img/orchidees.jpg" width="825" height="1100" alt="Orchidées en pots au rayon plantes de la boutique" loading="lazy"></div>
+        <div class="card__body">
+          <p class="card__tag">Vert &amp; vivant</p>
+          <h3>Plantes &amp; orchidées</h3>
+          <p>Orchidées, anthuriums, oliviers : de quoi fleurir une maison longtemps.</p>
+          <p class="card__price"><small>dès</small> 29,90&nbsp;€</p>
+        </div>
+        <span class="glare"></span>
+      </article>
+
+      <article class="card tilt" data-tilt>
+        <div class="card__img leaf"><img src="img/boite-ruban.jpg" width="900" height="1200" alt="Boîte ronde blanche garnie de roses et d’œillets, ruban rouge" loading="lazy"></div>
+        <div class="card__body">
+          <p class="card__tag">Un petit plus</p>
+          <h3>Fleurs &amp; cadeaux</h3>
+          <p>Chocolats, bougie, peluche : le bouquet et l’attention qui va avec.</p>
+          <p class="card__price"><small>dès</small> 24,90&nbsp;€</p>
+        </div>
+        <span class="glare"></span>
+      </article>
+
+      <aside class="card card--end">
+        <p class="card__end-t">Une idée<br>en tête&nbsp;?</p>
+        <p>Dites-nous le budget et l’occasion : on compose le reste.</p>
+        <a class="btn btn--cream magnetic" href="#reserver"><span class="btn__fill"></span><span class="btn__label">Réserver <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#arrow"/></svg></span></a>
+        <p class="card__fine">Prix indicatifs relevés sur le catalogue Florajet de la boutique, « à partir de ». Les créations sur mesure sont établies selon votre budget.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OCCASIONS — panneaux extensibles ============ -->
+<section class="occ scallop-top" id="occasions" aria-labelledby="occTitle">
+  <div class="container">
+    <p class="kicker kicker--dark">Pour vos émotions</p>
+    <h2 class="h2 h2--dark" id="occTitle">Une fleur pour<br>chaque <em>occasion</em></h2>
+
+    <div class="occ__panels" id="occPanels">
+      <article class="panel is-open" tabindex="0" data-occ="Anniversaire">
+        <img src="img/bouquet-soleil.jpg" width="900" height="1200" alt="Bouquet jaune et blanc de gerberas, lisianthus et solidage" loading="lazy">
+        <div class="panel__shade"></div>
+        <h3 class="panel__t"><span>Anniversaire</span></h3>
+        <div class="panel__body">
+          <p>Gerberas, lisianthus, eucalyptus&nbsp;: un bouquet qui a de la joie dans les épaules. Dites-nous la couleur préférée, on s’occupe du reste.</p>
+          <a class="link-u link-u--light" href="#reserver" data-pick="Bouquet de saison" data-occasion="Anniversaire">Réserver pour cette occasion</a>
+        </div>
+      </article>
+
+      <article class="panel" tabindex="0" data-occ="Mariage">
+        <img src="img/mariage-blanc.jpg" width="1176" height="1200" alt="Grand bouquet de lys et de roses blanches pour un mariage" loading="lazy">
+        <div class="panel__shade"></div>
+        <h3 class="panel__t"><span>Mariage</span></h3>
+        <div class="panel__body">
+          <p>Bouquet de la mariée, centres de table, décoration de salle&nbsp;: des fleurs blanches, délicates, pensées avec vous. Ces demandes se préparent à l’avance, sur devis.</p>
+          <a class="link-u link-u--light" href="#reserver" data-pick="Mariage / événement" data-occasion="Mariage">Demander un devis</a>
+        </div>
+      </article>
+
+      <article class="panel" tabindex="0" data-occ="Naissance">
+        <img src="img/hortensia.jpg" width="1121" height="1200" alt="Hortensias crème dans un emballage kraft rose" loading="lazy">
+        <div class="panel__shade"></div>
+        <h3 class="panel__t"><span>Naissance</span></h3>
+        <div class="panel__body">
+          <p>Roses poudrées, hortensias, douceur de pastel&nbsp;: pour accueillir bébé et féliciter les parents, avec un bouquet ou une plante à garder.</p>
+          <a class="link-u link-u--light" href="#reserver" data-pick="Composition / panier" data-occasion="Naissance">Réserver pour cette occasion</a>
+        </div>
+      </article>
+
+      <article class="panel" tabindex="0" data-occ="Saint-Valentin">
+        <img src="img/rose-cloche.jpg" width="640" height="1136" alt="Rose rouge éternelle sous cloche en verre" loading="lazy">
+        <div class="panel__shade"></div>
+        <h3 class="panel__t"><span>Saint-Valentin</span></h3>
+        <div class="panel__body">
+          <p>Roses rouges par brassées, ou rose éternelle sous cloche&nbsp;: « je t’aime » en version qui dure. Pensez à réserver quelques jours avant.</p>
+          <a class="link-u link-u--light" href="#reserver" data-pick="Sous cloche" data-occasion="Saint-Valentin">Réserver pour cette occasion</a>
+        </div>
+      </article>
+
+      <article class="panel" tabindex="0" data-occ="Fête des mères">
+        <img src="img/pivoine-pale.jpg" width="675" height="1200" alt="Pivoine rose pâle" loading="lazy">
+        <div class="panel__shade"></div>
+        <h3 class="panel__t"><span>Fêtes des mères</span></h3>
+        <div class="panel__body">
+          <p>Pivoines, roses, paniers d’amour&nbsp;: la boutique ouvre non-stop ces jours-là. Pour les grands-mères aussi, on livre chez mamie.</p>
+          <a class="link-u link-u--light" href="#reserver" data-pick="Composition / panier" data-occasion="Fête des mères">Réserver pour cette occasion</a>
+        </div>
+      </article>
+
+      <article class="panel" tabindex="0" data-occ="Deuil">
+        <img src="img/blanc-pur.jpg" width="900" height="1200" alt="Bouquet blanc de lisianthus et de roses sur un panier de jute" loading="lazy">
+        <div class="panel__shade"></div>
+        <h3 class="panel__t"><span>Deuil</span></h3>
+        <div class="panel__body">
+          <p>Gerbes, couronnes, plantes, compositions blanches&nbsp;: un moment délicat. Appelez-nous, on vous écoute et on compose avec sobriété, à la bonne date et au bon endroit.</p>
+          <a class="link-u link-u--light" href="tel:+33442584056">Appeler la boutique</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALERIE ============ -->
+<section class="gal" id="galerie" aria-labelledby="galTitle">
+  <div class="container">
+    <div class="gal__head">
+      <div>
+        <p class="kicker">Galerie</p>
+        <h2 class="h2" id="galTitle">Quelques <em>pétales</em> du comptoir</h2>
+      </div>
+      <a class="link-u" href="https://www.instagram.com/lilas_flowers/" target="_blank" rel="noopener">Tout voir sur Instagram <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#arrow"/></svg></a>
+    </div>
+
+    <ul class="gal__grid" id="galGrid">
+      <li class="g g--a"><button type="button" class="g__btn tilt" data-tilt data-cap="Gerberas &amp; eucalyptus"><span class="g__ph"><img src="img/bouquet-gerbera.jpg" width="1147" height="1200" alt="Bouquet coloré de gerberas et d’eucalyptus" loading="lazy"></span><span class="g__cap">Gerberas &amp; eucalyptus</span><span class="glare"></span></button></li>
+      <li class="g g--b"><button type="button" class="g__btn tilt" data-tilt data-cap="Roses éternelles"><span class="g__ph"><img src="img/roses-eternelles.jpg" width="1149" height="1200" alt="Deux roses éternelles sous cloche" loading="lazy"></span><span class="g__cap">Roses éternelles</span><span class="glare"></span></button></li>
+      <li class="g g--c"><button type="button" class="g__btn tilt" data-tilt data-cap="Blanc de mariage"><span class="g__ph"><img src="img/mariage-blanc.jpg" width="1176" height="1200" alt="Grand bouquet de lys et de roses blanches" loading="lazy"></span><span class="g__cap">Blanc de mariage</span><span class="glare"></span></button></li>
+      <li class="g g--d"><button type="button" class="g__btn tilt" data-tilt data-cap="Pivoine"><span class="g__ph"><img src="img/pivoine.jpg" width="1200" height="1200" alt="Pivoine rose vif" loading="lazy"></span><span class="g__cap">Pivoine</span><span class="glare"></span></button></li>
+      <li class="g g--e"><button type="button" class="g__btn tilt" data-tilt data-cap="Mimosa en panier"><span class="g__ph"><img src="img/mimosa-panier.jpg" width="900" height="1200" alt="Mimosa dans un pot de corde" loading="lazy"></span><span class="g__cap">Mimosa en panier</span><span class="glare"></span></button></li>
+      <li class="g g--f"><button type="button" class="g__btn tilt" data-tilt data-cap="Papier rose, ruban noir"><span class="g__ph"><img src="img/bouquet-rose-ruban.jpg" width="960" height="1200" alt="Bouquet rose et blanc, papier rose et ruban noir" loading="lazy"></span><span class="g__cap">Papier rose, ruban noir</span><span class="glare"></span></button></li>
+      <li class="g g--g"><button type="button" class="g__btn tilt" data-tilt data-cap="Panier de printemps"><span class="g__ph"><img src="img/panier-printemps.jpg" width="1194" height="1194" alt="Panier de roses, jonquilles et hortensias" loading="lazy"></span><span class="g__cap">Panier de printemps</span><span class="glare"></span></button></li>
+      <li class="g g--h"><button type="button" class="g__btn tilt" data-tilt data-cap="Lys &amp; roses pêche"><span class="g__ph"><img src="img/lys-roses.jpg" width="900" height="1200" alt="Lys, roses pêche et gypsophile" loading="lazy"></span><span class="g__cap">Lys &amp; roses pêche</span><span class="glare"></span></button></li>
+      <li class="g g--i"><button type="button" class="g__btn tilt" data-tilt data-cap="Fleurs séchées sous cloche"><span class="g__ph"><img src="img/cloche-seche.jpg" width="1146" height="1200" alt="Fleurs séchées sous cloche dans la mousse" loading="lazy"></span><span class="g__cap">Fleurs séchées sous cloche</span><span class="glare"></span></button></li>
+      <li class="g g--j"><button type="button" class="g__btn tilt" data-tilt data-cap="Rouge &amp; blanc"><span class="g__ph"><img src="img/roses-hortensia.jpg" width="900" height="1200" alt="Roses rouges, hortensias blancs et gypsophile" loading="lazy"></span><span class="g__cap">Rouge &amp; blanc</span><span class="glare"></span></button></li>
+      <li class="g g--k"><button type="button" class="g__btn tilt" data-tilt data-cap="Dans la boutique"><span class="g__ph"><img src="img/boutique-panier.jpg" width="675" height="1200" alt="Intérieur de la boutique, panier « La vie est belle » rempli de fleurs" loading="lazy"></span><span class="g__cap">Dans la boutique</span><span class="glare"></span></button></li>
+      <li class="g g--l"><button type="button" class="g__btn tilt" data-tilt data-cap="Pastel"><span class="g__ph"><img src="img/bouquet-pastel.jpg" width="1018" height="1200" alt="Bouquet pastel de gerbera, lisianthus et chrysanthèmes" loading="lazy"></span><span class="g__cap">Pastel</span><span class="glare"></span></button></li>
+    </ul>
+    <p class="gal__fine">Photos de la boutique, publiées sur son Instagram et sa fiche Google.</p>
+  </div>
+</section>
+
+<!-- ============ AVIS ============ -->
+<section class="rev scallop-top" id="avis" aria-labelledby="revTitle">
+  <div class="container">
+    <div class="rev__head">
+      <div>
+        <p class="kicker kicker--dark">Avis clients</p>
+        <h2 class="h2 h2--dark" id="revTitle">Ils en <em>parlent</em></h2>
+      </div>
+      <div class="rev__score" aria-label="Note Google 4,1 sur 5 pour 221 avis">
+        <p class="rev__big">4,1<small>/5</small></p>
+        <p class="rev__stars" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#star"/></svg><svg viewBox="0 0 24 24"><use href="#star"/></svg><svg viewBox="0 0 24 24"><use href="#star"/></svg><svg viewBox="0 0 24 24"><use href="#star"/></svg><svg class="half" viewBox="0 0 24 24"><use href="#star"/></svg></p>
+        <p class="rev__count">221 avis Google</p>
+      </div>
+    </div>
+
+    <div class="rev__ctrl">
+      <button class="rev__btn" id="revPrev" aria-label="Avis précédent"><svg viewBox="0 0 24 24" style="transform:scaleX(-1)"><use href="#arrow"/></svg></button>
+      <button class="rev__btn" id="revNext" aria-label="Avis suivant"><svg viewBox="0 0 24 24"><use href="#arrow"/></svg></button>
+      <div class="rev__bar" aria-hidden="true"><i id="revBar"></i></div>
+    </div>
+  </div>
+
+  <div class="rev__rail" id="revRail" data-lenis-prevent tabindex="0" aria-label="Avis Google, faites défiler horizontalement">
+    <figure class="rcard">
+      <svg class="rcard__q" viewBox="0 0 24 24" aria-hidden="true"><use href="#petal"/></svg>
+      <blockquote>Je recommande vivement la fleuriste Samia&nbsp;! Elle réalise des créations absolument magnifiques, pleines de couleurs et de fraîcheur. Samia est très gentille et accueillante, toujours prête à donner des conseils personnalisés. Un vrai plaisir d’acheter chez elle&nbsp;!</blockquote>
+      <figcaption><b>Sami R.</b><span>Avis Google · avril 2025</span></figcaption>
+    </figure>
+    <figure class="rcard rcard--pink">
+      <svg class="rcard__q" viewBox="0 0 24 24" aria-hidden="true"><use href="#petal"/></svg>
+      <blockquote>Le lieu idéal pour les amoureux des fleurs, des gens passionnés et un accueil incroyable&nbsp;! Si vous recherchez un bouquet avec une composition unique, avec des fleurs fraîches, c’est l’endroit parfait&nbsp;! Mention spéciale à Anissa qui est une personne humaine et extrêmement créative. Je reviendrais&nbsp;!</blockquote>
+      <figcaption><b>Amélie B.</b><span>Avis Google · septembre 2023</span></figcaption>
+    </figure>
+    <figure class="rcard">
+      <svg class="rcard__q" viewBox="0 0 24 24" aria-hidden="true"><use href="#petal"/></svg>
+      <blockquote>J’ai fait faire aujourd’hui un bouquet pour des fiançailles, le bouquet était vraiment beau et les fleurs fraîches pour un budget très raisonnable. Vraiment pas déçu bien au contraire. […]</blockquote>
+      <figcaption><b>Médina B.</b><span>Avis Google · juillet 2026 · extrait</span></figcaption>
+    </figure>
+    <figure class="rcard rcard--green">
+      <svg class="rcard__q" viewBox="0 0 24 24" aria-hidden="true"><use href="#petal"/></svg>
+      <blockquote>Une expérience juste extraordinaire&nbsp;! Une entreprise familiale au top, avec une équipe adorable, passionnée et très professionnelle. On s’y sent vraiment bien et on ressent tout de suite l’amour du métier. […]</blockquote>
+      <figcaption><b>Sandra Q.</b><span>Avis Google · août 2026 · extrait</span></figcaption>
+    </figure>
+    <figure class="rcard">
+      <svg class="rcard__q" viewBox="0 0 24 24" aria-hidden="true"><use href="#petal"/></svg>
+      <blockquote>La dame qui m’a servi mes fleurs est fort sympathique. La boutique est jolie et a une belle sélection de fleurs. Je recommande.</blockquote>
+      <figcaption><b>Clément V.</b><span>Avis Google · août 2026</span></figcaption>
+    </figure>
+    <figure class="rcard rcard--pink">
+      <svg class="rcard__q" viewBox="0 0 24 24" aria-hidden="true"><use href="#petal"/></svg>
+      <blockquote>On est comme dans une bulle de fleurs, de couleurs et de parfums. La gérante est top, une passionnée de la fleur. Elle conseille et elle compose […]</blockquote>
+      <figcaption><b>Yam R.</b><span>Avis Google · février 2021 · extrait</span></figcaption>
+    </figure>
+    <aside class="rcard rcard--cta">
+      <p class="rcard__cta-t">Vous êtes passé(e) <em>nous voir</em>&nbsp;?</p>
+      <p>Votre avis aide les prochains clients à pousser la porte.</p>
+      <a class="btn btn--pink magnetic" href="https://www.google.com/maps/place/Lila's+flowers/@43.454894,5.4655624,17z/data=!4m15!1m8!3m7!1s0x12c993c49a14891f:0x9a106c4b7c13bb7c!2sLila's+flowers!8m2!3d43.454894!4d5.4655624!10e5!16s%2Fg%2F1tf2pf3b!3m5!1s0x12c993c49a14891f:0x9a106c4b7c13bb7c!8m2!3d43.454894!4d5.4655624!16s%2Fg%2F1tf2pf3b" target="_blank" rel="noopener"><span class="btn__fill"></span><span class="btn__label">Voir tous les avis <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#arrow"/></svg></span></a>
+    </aside>
+  </div>
+  <p class="rev__fine container">Extraits d’avis publics laissés sur Google Maps, reproduits tels quels (prénom et initiale). Les avis ne sont pas vérifiés par Google.</p>
+</section>
+
+<!-- ============ RÉSERVER ============ -->
+<section class="book" id="reserver" aria-labelledby="bookTitle">
+  <div class="book__bg" aria-hidden="true">
+    <video id="bookVideo" muted loop playsinline preload="none" poster="img/atelier-poster.jpg"><source data-src="video/atelier.mp4" type="video/mp4"></video>
+    <div class="book__veil"></div>
+  </div>
+
+  <div class="container book__wrap">
+    <div class="book__intro">
+      <p class="kicker">Réserver</p>
+      <h2 class="h2" id="bookTitle">Votre bouquet,<br><em>prêt à votre heure</em></h2>
+      <p class="book__lede">Choisissez votre création, le jour et le créneau. Vous envoyez la demande par e-mail en un clic&nbsp;; la boutique confirme la disponibilité par téléphone ou par e-mail. Pas de paiement en ligne, pas de compte à créer.</p>
+
+      <ul class="book__perks">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#pin"/></svg>Retrait au 55 boulevard Carnot, Gardanne</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#petal"/></svg>Ou livraison, confirmée au téléphone</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#phone"/></svg>Plus simple&nbsp;? <a class="link-u link-u--light" href="tel:+33442584056">04 42 58 40 56</a></li>
+      </ul>
+    </div>
+
+    <form class="form" id="bookForm" novalidate aria-describedby="formNote">
+      <ol class="form__steps" aria-label="Étapes de la réservation">
+        <li class="is-on" data-s="1"><b>1</b><span>Votre envie</span></li>
+        <li data-s="2"><b>2</b><span>Quand &amp; comment</span></li>
+        <li data-s="3"><b>3</b><span>Vous</span></li>
+        <li data-s="4"><b>✓</b><span>Envoi</span></li>
+      </ol>
+      <div class="form__track"><i id="formBar"></i></div>
+
+      <!-- étape 1 -->
+      <fieldset class="fs is-on" data-fs="1">
+        <legend class="fs__t">Qu’est-ce qui vous ferait plaisir&nbsp;?</legend>
+        <div class="chips" role="radiogroup" aria-label="Type de création">
+          <label class="chip"><input type="radio" name="type" value="Bouquet de saison" checked><span>Bouquet de saison</span></label>
+          <label class="chip"><input type="radio" name="type" value="Bouquet de roses"><span>Bouquet de roses</span></label>
+          <label class="chip"><input type="radio" name="type" value="Composition / panier"><span>Composition / panier</span></label>
+          <label class="chip"><input type="radio" name="type" value="Sous cloche"><span>Sous cloche</span></label>
+          <label class="chip"><input type="radio" name="type" value="Plante / orchidée"><span>Plante / orchidée</span></label>
+          <label class="chip"><input type="radio" name="type" value="Mariage / événement"><span>Mariage / événement</span></label>
+          <label class="chip"><input type="radio" name="type" value="Deuil"><span>Deuil</span></label>
+          <label class="chip"><input type="radio" name="type" value="Autre"><span>Autre idée</span></label>
+        </div>
+        <p class="hint" id="deuilHint" hidden>Pour un deuil, nous vous conseillons d’appeler directement la boutique&nbsp;: <a href="tel:+33442584056">04 42 58 40 56</a>. Vous pouvez aussi remplir ce formulaire, nous vous rappellerons.</p>
+
+        <div class="row">
+          <div class="field">
+            <label for="budget">Budget</label>
+            <select id="budget" name="budget">
+              <option>À définir avec vous</option>
+              <option>Jusqu’à 25 €</option>
+              <option>25 à 40 €</option>
+              <option>40 à 60 €</option>
+              <option>60 à 100 €</option>
+              <option>Plus de 100 €</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="occasion">Occasion</label>
+            <input id="occasion" name="occasion" type="text" placeholder="Anniversaire, merci, naissance…" autocomplete="off">
+          </div>
+        </div>
+        <div class="field">
+          <label for="details">Couleurs, fleurs préférées, message pour la carte</label>
+          <textarea id="details" name="details" rows="3" placeholder="Ex. : plutôt pastel, pas de lys, carte « Bon anniversaire Maman »"></textarea>
+        </div>
+        <div class="form__nav"><span></span><button type="button" class="btn btn--pink magnetic" data-next><span class="btn__fill"></span><span class="btn__label">Continuer <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#arrow"/></svg></span></button></div>
+      </fieldset>
+
+      <!-- étape 2 -->
+      <fieldset class="fs" data-fs="2">
+        <legend class="fs__t">Quand et comment le récupérer&nbsp;?</legend>
+        <div class="chips chips--2" role="radiogroup" aria-label="Retrait ou livraison">
+          <label class="chip"><input type="radio" name="mode" value="Retrait en boutique" checked><span>Retrait en boutique</span></label>
+          <label class="chip"><input type="radio" name="mode" value="Livraison"><span>Livraison</span></label>
+        </div>
+        <div class="row">
+          <div class="field">
+            <label for="date">Jour souhaité</label>
+            <input id="date" name="date" type="date" required>
+            <p class="err" id="dateErr" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="slot">Créneau</label>
+            <select id="slot" name="slot" required></select>
+            <p class="err" id="slotErr" role="alert"></p>
+          </div>
+        </div>
+        <p class="hint" id="hoursHint">Choisissez un jour pour voir les créneaux.</p>
+        <div id="deliveryFields" hidden>
+          <div class="field">
+            <label for="addr">Adresse de livraison</label>
+            <input id="addr" name="addr" type="text" autocomplete="street-address" placeholder="N° et rue, commune">
+            <p class="err" id="addrErr" role="alert"></p>
+          </div>
+          <div class="row">
+            <div class="field"><label for="dest">Nom du destinataire</label><input id="dest" name="dest" type="text" autocomplete="off"></div>
+            <div class="field"><label for="destTel">Téléphone du destinataire (facultatif)</label><input id="destTel" name="destTel" type="tel" autocomplete="off"></div>
+          </div>
+          <p class="hint">Les zones et le tarif de livraison sont confirmés par la boutique.</p>
+        </div>
+        <div class="form__nav"><button type="button" class="btn btn--ghost btn--sm" data-prev><span class="btn__fill"></span><span class="btn__label">Retour</span></button><button type="button" class="btn btn--pink magnetic" data-next><span class="btn__fill"></span><span class="btn__label">Continuer <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#arrow"/></svg></span></button></div>
+      </fieldset>
+
+      <!-- étape 3 -->
+      <fieldset class="fs" data-fs="3">
+        <legend class="fs__t">Comment vous joindre&nbsp;?</legend>
+        <div class="row">
+          <div class="field"><label for="name">Prénom et nom</label><input id="name" name="name" type="text" autocomplete="name" required><p class="err" id="nameErr" role="alert"></p></div>
+          <div class="field"><label for="tel">Téléphone</label><input id="tel" name="tel" type="tel" autocomplete="tel" inputmode="tel" required placeholder="06 12 34 56 78"><p class="err" id="telErr" role="alert"></p></div>
+        </div>
+        <div class="field"><label for="mail">E-mail (facultatif)</label><input id="mail" name="mail" type="email" autocomplete="email" inputmode="email"><p class="err" id="mailErr" role="alert"></p></div>
+        <p class="hint" id="formNote">Vos informations restent sur votre appareil : le formulaire prépare simplement un message. Rien n’est envoyé tant que vous ne l’envoyez pas vous-même.</p>
+        <div class="form__nav"><button type="button" class="btn btn--ghost btn--sm" data-prev><span class="btn__fill"></span><span class="btn__label">Retour</span></button><button type="button" class="btn btn--pink magnetic" data-next><span class="btn__fill"></span><span class="btn__label">Voir mon récapitulatif <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#arrow"/></svg></span></button></div>
+      </fieldset>
+
+      <!-- étape 4 : récap + envoi -->
+      <fieldset class="fs" data-fs="4">
+        <legend class="fs__t">Votre demande est prête</legend>
+        <div class="recap" id="recap" aria-live="polite"></div>
+        <div class="send">
+          <a class="btn btn--pink magnetic" id="sendMail" href="#"><span class="btn__fill"></span><span class="btn__label">Envoyer par e-mail <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#arrow"/></svg></span></a>
+          <a class="btn btn--cream magnetic" id="sendSms" href="#" hidden><span class="btn__fill"></span><span class="btn__label">Envoyer par SMS</span></a>
+          <a class="btn btn--ghost magnetic" href="tel:+33442584056"><span class="btn__fill"></span><span class="btn__label"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#phone"/></svg>Appeler pour confirmer</span></a>
+        </div>
+        <div class="send send--sub">
+          <button type="button" class="link-u link-u--light" id="copyMsg">Copier le message</button>
+          <button type="button" class="link-u link-u--light" id="dlIcs">Ajouter à mon calendrier (.ics)</button>
+        </div>
+        <p class="hint" id="sendNote" role="status"></p>
+        <div class="form__nav"><button type="button" class="btn btn--ghost btn--sm" data-prev><span class="btn__fill"></span><span class="btn__label">Modifier</span></button><span></span></div>
+      </fieldset>
+    </form>
+  </div>
+</section>
+
+<!-- ============ INFOS / NOUS TROUVER ============ -->
+<section class="info scallop-top" id="infos" aria-labelledby="infoTitle">
+  <div class="container info__grid">
+    <div class="info__txt">
+      <p class="kicker">Nous trouver</p>
+      <h2 class="h2" id="infoTitle">Poussez<br>la <em>porte</em></h2>
+
+      <address class="info__addr">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#pin"/></svg>
+        <span>55 boulevard Carnot<br>13120 Gardanne</span>
+      </address>
+
+      <div class="info__links">
+        <a class="btn btn--pink magnetic" href="https://www.google.com/maps/dir/?api=1&amp;destination=Lila%27s+Flowers+55+Boulevard+Carnot+13120+Gardanne" target="_blank" rel="noopener"><span class="btn__fill"></span><span class="btn__label">Itinéraire <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#arrow"/></svg></span></a>
+        <a class="btn btn--ghost magnetic" href="https://www.google.com/maps/place/Lila's+flowers/@43.454894,5.4655624,17z/data=!4m15!1m8!3m7!1s0x12c993c49a14891f:0x9a106c4b7c13bb7c!2sLila's+flowers!8m2!3d43.454894!4d5.4655624!10e5!16s%2Fg%2F1tf2pf3b!3m5!1s0x12c993c49a14891f:0x9a106c4b7c13bb7c!8m2!3d43.454894!4d5.4655624!16s%2Fg%2F1tf2pf3b" target="_blank" rel="noopener"><span class="btn__fill"></span><span class="btn__label">Ouvrir dans Google Maps</span></a>
+      </div>
+
+      <table class="hours" id="hours">
+        <caption class="sr">Horaires d’ouverture</caption>
+        <tbody>
+          <tr data-d="1"><th scope="row">Lundi</th><td>8 h 30 – 19 h 30</td></tr>
+          <tr data-d="2"><th scope="row">Mardi</th><td>8 h 30 – 19 h 30</td></tr>
+          <tr data-d="3"><th scope="row">Mercredi</th><td>8 h 30 – 19 h 30</td></tr>
+          <tr data-d="4"><th scope="row">Jeudi</th><td>8 h 30 – 19 h 30</td></tr>
+          <tr data-d="5"><th scope="row">Vendredi</th><td>8 h 30 – 20 h</td></tr>
+          <tr data-d="6"><th scope="row">Samedi</th><td>8 h 30 – 20 h</td></tr>
+          <tr data-d="0"><th scope="row">Dimanche</th><td>8 h 30 – 13 h 30</td></tr>
+        </tbody>
+      </table>
+      <p class="info__fine">Horaires réduits les jours fériés (ex. mercredi 11 novembre : 8 h 30 – 13 h).</p>
+
+      <ul class="info__contact">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#phone"/></svg><a class="link-u" href="tel:+33442584056">04 42 58 40 56</a></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#arrow"/></svg><a class="link-u" href="mailto:lilasflowers@live.fr">lilasflowers@live.fr</a></li>
+      </ul>
+    </div>
+
+    <div class="info__map" id="mapWrap">
+      <iframe title="Carte Google Maps : Lila’s Flowers, 55 boulevard Carnot, Gardanne" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=Lila%27s+Flowers,+55+Boulevard+Carnot,+13120+Gardanne&amp;hl=fr&amp;z=17&amp;output=embed"></iframe>
+      <a class="info__map-open" href="https://www.google.com/maps/place/Lila's+flowers/@43.454894,5.4655624,17z/data=!4m15!1m8!3m7!1s0x12c993c49a14891f:0x9a106c4b7c13bb7c!2sLila's+flowers!8m2!3d43.454894!4d5.4655624!10e5!16s%2Fg%2F1tf2pf3b!3m5!1s0x12c993c49a14891f:0x9a106c4b7c13bb7c!8m2!3d43.454894!4d5.4655624!16s%2Fg%2F1tf2pf3b" target="_blank" rel="noopener">Agrandir la carte<span class="sr"> (s’ouvre dans un nouvel onglet)</span></a>
+    </div>
+  </div>
+
+  <div class="container faq">
+    <h3 class="faq__t">Questions <em>fréquentes</em></h3>
+    <div class="faq__list">
+      <details><summary>Comment réserver ?</summary><p>Remplissez le formulaire ci-dessus : création, jour, créneau, coordonnées. Vous envoyez ensuite la demande par e-mail (ou vous appelez la boutique). Nous confirmons la disponibilité par téléphone ou par e-mail.</p></details>
+      <details><summary>Livrez-vous ?</summary><p>Oui, retrait en boutique ou livraison. Pour une livraison, indiquez l’adresse dans le formulaire : la boutique confirme la faisabilité et le tarif avec vous.</p></details>
+      <details><summary>Y a-t-il un budget minimum ?</summary><p>Aucun montant imposé : dites-nous votre budget et on adapte la composition. Nos bouquets du catalogue démarrent autour de 27&nbsp;€.</p></details>
+      <details><summary>Mariage, deuil : comment faire ?</summary><p>Ces demandes se préparent à l’avance. Appelez le 04&nbsp;42&nbsp;58&nbsp;40&nbsp;56 ou passez en boutique : nous prenons le temps de vous écouter et d’établir un devis.</p></details>
+      <details><summary>Envoyer des fleurs loin de Gardanne ?</summary><p>Oui, via le réseau Florajet : la boutique y a sa fiche, <a class="link-u" href="https://www.florajet.com/fleuriste/bouches-du-rhone-13/gardanne-13120/lila-s-flowers-132508.html" target="_blank" rel="noopener">à retrouver ici</a>.</p></details>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="foot">
+  <div class="foot__wave" aria-hidden="true"></div>
+  <div class="container foot__top">
+    <div class="foot__col">
+      <p class="foot__h">La boutique</p>
+      <p>55 boulevard Carnot<br>13120 Gardanne</p>
+      <p><a class="link-u link-u--dark" href="tel:+33442584056">04 42 58 40 56</a></p>
+      <p><a class="link-u link-u--dark" href="mailto:lilasflowers@live.fr">lilasflowers@live.fr</a></p>
+    </div>
+    <div class="foot__col">
+      <p class="foot__h">Aller à</p>
+      <p><a class="link-u link-u--dark" href="#maison">La maison</a></p>
+      <p><a class="link-u link-u--dark" href="#creations">Créations</a></p>
+      <p><a class="link-u link-u--dark" href="#occasions">Occasions</a></p>
+      <p><a class="link-u link-u--dark" href="#reserver">Réserver</a></p>
+    </div>
+    <div class="foot__col">
+      <p class="foot__h">Suivre</p>
+      <p><a class="link-u link-u--dark" href="https://www.instagram.com/lilas_flowers/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#insta"/></svg> Instagram</a></p>
+      <p><a class="link-u link-u--dark" href="https://www.facebook.com/p/Lilas-Flowers-100063624909920/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#fb"/></svg> Facebook</a></p>
+      <p><a class="link-u link-u--dark" href="https://www.google.com/maps/place/Lila's+flowers/@43.454894,5.4655624,17z/data=!4m15!1m8!3m7!1s0x12c993c49a14891f:0x9a106c4b7c13bb7c!2sLila's+flowers!8m2!3d43.454894!4d5.4655624!10e5!16s%2Fg%2F1tf2pf3b!3m5!1s0x12c993c49a14891f:0x9a106c4b7c13bb7c!8m2!3d43.454894!4d5.4655624!16s%2Fg%2F1tf2pf3b" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#pin"/></svg> Google Maps</a></p>
+    </div>
+    <div class="foot__col foot__col--cta">
+      <p class="foot__h">Une envie de fleurs&nbsp;?</p>
+      <a class="btn btn--night magnetic" href="#reserver"><span class="btn__fill"></span><span class="btn__label">Réserver <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#arrow"/></svg></span></a>
+    </div>
+  </div>
+
+  <p class="foot__giant" aria-hidden="true"><span class="split">lila’s flowers</span></p>
+
+  <div class="container foot__bottom">
+    <p>© 2026 Lila’s Flowers · Artisan fleuriste · Gardanne</p>
+    <p>Photos : Lila’s Flowers (Instagram, Google) · Vidéo : <a class="link-u link-u--dark" href="https://www.pexels.com/fr-fr/video/3805783/" target="_blank" rel="noopener">Pexels</a></p>
+  </div>
+</footer>
+
+<!-- lightbox -->
+<dialog class="lb" id="lb" aria-label="Galerie en grand">
+  <button class="lb__close" id="lbClose" aria-label="Fermer">×</button>
+  <button class="lb__nav lb__nav--prev" id="lbPrev" aria-label="Photo précédente"><svg viewBox="0 0 24 24" style="transform:scaleX(-1)"><use href="#arrow"/></svg></button>
+  <figure class="lb__fig"><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="lb__nav lb__nav--next" id="lbNext" aria-label="Photo suivante"><svg viewBox="0 0 24 24"><use href="#arrow"/></svg></button>
+</dialog>
+
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/ScrollTrigger.min.js"></script>
+<script src="vendor/lenis.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
